@@ -922,6 +922,10 @@ textarea {
   object-position: top;
 }
 
+.case__media--phone img.pos-bottom {
+  object-position: bottom;
+}
+
 .case__tag {
   display: inline-block;
   font-size: var(--text-xs);
