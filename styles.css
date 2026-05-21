@@ -479,6 +479,8 @@ textarea {
   position: relative;
   z-index: 2;
   max-width: 60rem;
+  margin-inline: auto;
+  text-align: center;
 }
 
 .hero__title {
@@ -488,6 +490,7 @@ textarea {
   letter-spacing: -0.035em;
   line-height: 0.96;
   max-width: 18ch;
+  margin-inline: auto;
 }
 .hero__title em {
   font-style: italic;
@@ -514,6 +517,7 @@ textarea {
   flex-wrap: wrap;
   gap: var(--space-3);
   margin-top: var(--space-8);
+  justify-content: center;
 }
 
 .hero__meta {
@@ -2162,18 +2166,6 @@ h5 {
 
   .hero {
     min-height: auto;
-  }
-
-  .hero__inner {
-    text-align: left;
-  }
-
-  .hero__title {
-    margin-inline: 0;
-  }
-
-  .hero__cta {
-    justify-content: flex-start;
   }
 
   .hero__meta {
