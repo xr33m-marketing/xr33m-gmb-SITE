@@ -719,10 +719,13 @@ textarea {
   box-shadow: var(--shadow-sm);
 }
 
-.why-card__icon {
-  font-size: 2rem;
+.why-card__num {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-primary);
   margin-bottom: var(--space-5);
-  display: block;
+  line-height: 1;
 }
 
 .why-card h3 {
