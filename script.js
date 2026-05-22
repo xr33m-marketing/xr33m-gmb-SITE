@@ -134,9 +134,9 @@
     const jobs = Math.max(1, Math.round(bufferedCalls * (closeRate / 100)));
     const monthlyRevenue = jobs * jobValue * lifetime;
     const monthlyProfit = monthlyRevenue * (margin / 100);
-    const setupFee = 1997;
-    const monthlyFee = 497;
-    const annualInvestment = setupFee + monthlyFee * 12;
+    const setupFee = 1495;
+    const periodicFee = 395;
+    const annualInvestment = setupFee + periodicFee * 13; // 13 × 4-week periods in a year
     const netProfit = monthlyProfit * 12 - annualInvestment;
     const roi = annualInvestment > 0 ? (netProfit / annualInvestment) * 100 : 0;
 
