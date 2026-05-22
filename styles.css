@@ -899,7 +899,7 @@ textarea {
 /* Pricing CTA */
 .pricing-cta {
   margin-top: var(--space-8);
-  background: var(--color-text);
+  background: #181712;
   border-radius: var(--radius-xl);
   padding: var(--space-10) var(--space-8);
 }
@@ -920,25 +920,25 @@ textarea {
   font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: color-mix(in oklab, var(--color-text-inverse) 50%, transparent);
+  color: #9e9787;
 }
 
 .pricing-cta__strikethrough {
   font-family: var(--font-display);
   font-size: var(--text-xl);
-  color: color-mix(in oklab, var(--color-text-inverse) 30%, transparent);
+  color: #5a5648;
   text-decoration: line-through;
-  text-decoration-color: color-mix(in oklab, var(--color-primary) 70%, transparent);
+  text-decoration-color: #6b430e;
 }
 
 .pricing-cta__sub {
   font-size: var(--text-xs);
-  color: color-mix(in oklab, var(--color-text-inverse) 35%, transparent);
+  color: #6b6456;
 }
 
 .pricing-cta__divider-line {
   height: 1px;
-  background: color-mix(in oklab, var(--color-text-inverse) 10%, transparent);
+  background: #2d2b25;
   margin-bottom: var(--space-6);
 }
 
@@ -960,7 +960,7 @@ textarea {
   font-family: var(--font-display);
   font-size: var(--text-2xl);
   font-weight: 700;
-  color: var(--color-text-inverse);
+  color: #fdfaf3;
   line-height: 1.05;
   margin-bottom: var(--space-2);
 }
@@ -969,12 +969,12 @@ textarea {
   font-size: var(--text-base);
   font-family: var(--font-body);
   font-weight: 400;
-  color: color-mix(in oklab, var(--color-text-inverse) 55%, transparent);
+  color: #9e9787;
 }
 
 .pricing-cta__monthly {
   font-size: var(--text-sm);
-  color: var(--color-primary-soft);
+  color: #c9a96e;
   max-width: 32ch;
   line-height: 1.5;
 }
@@ -990,8 +990,8 @@ textarea {
   display: flex;
   gap: var(--space-5);
   align-items: flex-start;
-  background: color-mix(in oklab, var(--color-primary-soft) 55%, var(--color-surface-2));
-  border: 1px solid var(--color-primary-soft);
+  background: #f5ead6;
+  border: 1px solid #d4a855;
   border-radius: var(--radius-xl);
   padding: var(--space-7) var(--space-8);
 }
@@ -1005,13 +1005,13 @@ textarea {
 .guarantee__title {
   font-weight: 700;
   font-size: var(--text-base);
-  color: var(--color-text);
+  color: #181712;
   margin-bottom: var(--space-2);
 }
 
 .guarantee p {
   font-size: var(--text-sm);
-  color: var(--color-text-muted);
+  color: #4a4338;
   line-height: 1.6;
 }
 
