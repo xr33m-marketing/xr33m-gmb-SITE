@@ -2418,6 +2418,44 @@ h5 {
 
   .hero {
     min-height: auto;
+    padding-block: var(--space-16) var(--space-12);
+  }
+
+  .hero__inner {
+    text-align: left;
+  }
+
+  .eyebrow {
+    font-size: 0.7rem;
+  }
+
+  .hero__title {
+    font-size: clamp(1.75rem, 8vw, 2.6rem);
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    max-width: none;
+    margin-inline: 0;
+  }
+
+  .hero__lede {
+    font-size: 0.95rem;
+    line-height: 1.75;
+    max-width: none;
+    margin-inline: 0;
+  }
+
+  .hero__lede--closing {
+    margin-top: var(--space-4);
+  }
+
+  .hero__cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero__cta .btn {
+    text-align: center;
+    justify-content: center;
   }
 
   .hero__meta {
