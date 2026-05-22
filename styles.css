@@ -1914,6 +1914,18 @@ h5 {
   max-width: 48rem;
   color: var(--color-text-muted);
   font-weight: 400;
+  line-height: 2;
+}
+
+.hero__lede-emphasis {
+  font-style: normal;
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+.hero__lede--closing {
+  margin-top: var(--space-6);
+  line-height: 1.6;
 }
 
 .hero__cta {
